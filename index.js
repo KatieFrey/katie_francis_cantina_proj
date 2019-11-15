@@ -57,17 +57,15 @@ function parseSelector(line) {
 }
 
 //*** Extra Credit ***
-function parseLine(line) {
-  let output;
-  if (line.split(".").length > 1) {
-    output = line.split(".");
-  }
-  if (line.split("#").length > 1) {
-    output = line.split("#");
-  }
+// function parseLine(line) {
+//   let output;
+//   if (line.split(".").length > 1) {
+//     output = line.split(".");
+//   }
+//   if (line.split("#").length > 1) {
+//     output = line.split("#");
+//   }
 
-  return output;
+//   return output;
 
-  // "View#identifier"
-  // "StackView .container"
-}
+//}
